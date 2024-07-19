@@ -62,7 +62,7 @@ export function Header() {
   };
 
   return (
-    <header className="sticky top-0 flex items-center justify-between px-5 py-6 border-b border-b-teal-light bg-transparent backdrop-blur-[6px]">
+    <header className="sticky top-0 z-50 flex items-center justify-between px-5 py-6 border-b border-b-teal-light bg-transparent backdrop-blur-xl">
       <Link href={"/"}>
         <Image
           src="/smart-notes.png"
@@ -73,6 +73,7 @@ export function Header() {
         />
       </Link>
       <button onClick={handleMenu}>
+        <span className="sr-only">Menu</span>
         <HamburgerMenu />
       </button>
       <dialog

@@ -1,10 +1,9 @@
-import Image from "next/image";
+import { HeroMain } from "@/sections/hero-main";
 
 export default function Home() {
   return (
     <main>
-      <h1>Hello world</h1>
-      <div className="h-[2000px]"></div>
+      <HeroMain />
     </main>
   );
 }

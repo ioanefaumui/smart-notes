@@ -16,12 +16,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className="h-full scroll-smooth [&>body]:bg-jetblack [&>body]:text-gray-light"
-    >
+    <html lang="en" className="h-full scroll-smooth">
       <body
-        className={`${DMSans.className} has-[dialog[open]]:overflow-hidden`}
+        className={`${DMSans.className} has-[dialog[open]]:overflow-hidden text-gray-light bg-jetblack`}
       >
         <Header />
         {children}
