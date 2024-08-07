@@ -4,7 +4,7 @@ import { InputEmail } from "@/components/input-email";
 export function HeroMain() {
   return (
     <section>
-      <div className="relative w-[min(100svw-2.5rem,1152px)] sm:w-[min(100svw-6rem,1152px)] mx-auto mt-16 sm:mt-24 lg:mt-32">
+      <div className="relative w-[min(100svw-2.5rem,1152px)] sm:w-[min(100svw-6rem,1152px)] mx-auto my-16 sm:my-24 lg:my-32">
         <div className="max-w-[636px]">
           <h1 className="text-3xl sm:text-[59px] font-bold tracking-[-0.04rem] leading-[1.3] sm:leading-[1.06] text-accent">
             <span className="text-transparent bg-gradient-to-tr bg-clip-text from-teal-dark to-teal-lighter ">
@@ -29,8 +29,6 @@ export function HeroMain() {
           <AbstractShapes />
         </div>
       </div>
-
-      <div className="h-[2000px]"></div>
     </section>
   );
 }

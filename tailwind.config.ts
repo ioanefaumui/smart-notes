@@ -19,6 +19,19 @@ const config: Config = {
           dark: "#017373",
         },
       }),
+      animation: () => ({
+        "auto-slide": "slide 50s linear infinite",
+      }),
+      keyframes: {
+        slide: {
+          from: {
+            left: "100%",
+          },
+          to: {
+            left: "calc(var(--width)*-1)",
+          },
+        },
+      },
     },
   },
   plugins: [],
