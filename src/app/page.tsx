@@ -1,6 +1,4 @@
-import { Quote1 } from "@/sections";
-import { HeroMain } from "@/sections/hero-main";
-import { Logos } from "@/sections/logos";
+import { Features, HeroMain, Logos, Quote1 } from "@/sections";
 
 export default function Home() {
   return (
@@ -12,6 +10,7 @@ export default function Home() {
         company="TechSavvy Solutions"
         quote="The real-time synchronization and AI-powered organization have made our workflow more efficient than ever. "
       />
+      <Features />
     </main>
   );
 }

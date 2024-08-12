@@ -6,7 +6,7 @@ export function InputEmail() {
       <input
         type="email"
         autoComplete="email webauthn"
-        className="w-full px-6 py-[18px] sm:py-[22px] leading-[1.5] text-carbon placeholder:text-carbon outline-none bg-transparent"
+        className="w-full px-6 py-[18px] sm:py-[22px] leading-[150%] text-carbon placeholder:text-carbon outline-none bg-transparent"
         placeholder="Enter your email"
       />
       <button
