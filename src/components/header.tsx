@@ -63,8 +63,8 @@ export function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-50 border-b border-b-teal-light">
-      <div className="flex items-center justify-between w-[min(100svw-2.5rem,1248px)] sm:w-[min(100svw-5rem,1248px)] mx-auto py-6 text-accent bg-transparent backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-b-teal-light bg-transparent backdrop-blur-xl">
+      <div className="flex items-center justify-between w-[min(100svw-2.5rem,1248px)] sm:w-[min(100svw-5rem,1248px)] mx-auto py-6 text-accent">
         <Link href={"/"}>
           <Image
             src="/smart-notes.png"

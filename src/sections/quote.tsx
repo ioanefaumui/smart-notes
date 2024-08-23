@@ -1,4 +1,4 @@
-import { Quote } from "@/components";
+import { Quote as Qte } from "@/components";
 
 interface Props {
   author: string;
@@ -6,10 +6,10 @@ interface Props {
   quote: string;
 }
 
-export function Quote1({ author, company, quote }: Props) {
+export function Quote({ author, company, quote }: Props) {
   return (
     <section className="grid place-items-center py-16">
-      <Quote author={author} company={company} quote={quote} />
+      <Qte author={author} company={company} quote={quote} />
     </section>
   );
 }

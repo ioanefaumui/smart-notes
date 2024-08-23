@@ -1,4 +1,5 @@
 export * from "./features";
 export * from "./hero-main";
 export * from "./logos";
-export * from "./quote-1";
+export * from "./quote";
+export * from "./video-large";
